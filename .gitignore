@@ -2,10 +2,10 @@ __pycache__
 
 # finetune_demo: generated & downloaded files
 finetune_demo/output
-finetune_demo/data
-finetune_demo/formatted_data
-ToolAlpaca/
-AdvertiseGen/
+finetune_demo/data/**
+!finetune_demo/data/**/
+!finetune_demo/data/**/.gitkeep
+
 *.gz
 *.idea
 .DS_Store
