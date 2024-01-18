@@ -1,0 +1,2 @@
+# see `transformers.GenerationConfig`
+max_new_tokens: 256
